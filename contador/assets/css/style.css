@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans", "Comic", sans-serif;
+    background-color: seagreen;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funcoes-contador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.funcoes-contador button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 24px;
+    padding: 0;
+    color: white;
+    border-color: white;
+    background-color: seagreen;
+}
+
+.funcoes-contador button:hover {
+    color: seagreen;
+    border-color: seagreen;
+    background-color: white;
+}
+
+#contador {
+    font-size: 24px;
+    margin: 0px 10px;
+}
+
+.negative {
+    color: crimson;
+}
